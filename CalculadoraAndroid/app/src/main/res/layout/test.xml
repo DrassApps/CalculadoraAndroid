@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bt_limpiar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/boton_c"
+            android:text="C"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt_dividir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/boton_numero2"
+            android:text="÷"
+            android:textColor="@android:color/white"
+            android:textSize="32dp"/>
+
+        <Button
+            android:id="@+id/bt_multiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/boton_numero2"
+            android:text="×"
+            android:textColor="@android:color/white"
+            android:textSize="33dp"/>
+
+        <Button
+            android:id="@+id/bt_del"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/boton_numero2"
+            android:text="DEL"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Celda 2.1" />
+        <TextView android:text="Celda 2.2" />
+        <TextView android:text="Celda 2.3" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Celda 3.1"
+            android:layout_span="2" />
+        <TextView android:text="Celda 3.2" />
+    </TableRow>
+</TableLayout>
